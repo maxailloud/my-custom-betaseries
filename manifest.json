@@ -1,10 +1,10 @@
 {
-  "name"            : "myT411",
-  "version"         : "0.0.1",
-  "manifest_version": 2,
-  "description"     : "Add torrent411 link on your betaseries series to go directly to search page for it",
-  "content_scripts" : [{
-    "matches" : ["http://www.betaseries.com/membre/*/series"]
-    "js"      : ["script.js"]
-  }]
+    "name"            : "Torrent411 search button for Betaseries",
+    "version"         : "0.0.1",
+    "manifest_version": 2,
+    "description"     : "Add torrent411 link on your betaseries series to go directly to search page for it",
+    "content_scripts" : [{
+        "matches" : ["http://www.betaseries.com/membre/*/series"],
+        "js"      : ["script.js"]
+    }]
 }
