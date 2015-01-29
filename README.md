@@ -1,4 +1,6 @@
-betaseries-t411-search
+My custom Betaseries
 ======================
 
-Dans la page "Mes séries" ajoute un bouton sur chaque série pour les chercher directement sur le site torrent411.
+In the "Mes séries" page:
+ * Add a button on your series in the page "Mes séries" to directly search them on torrent411
+ * Preselect only the ongoing series

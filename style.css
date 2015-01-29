@@ -1,0 +1,17 @@
+#header {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.show .infos, .show .tags {
+    display: none;
+    visibility: hidden;
+}
+
+#contenu #right #annuaire-list .show:hover .tags, #contenu #right #member_shows .show:hover .tags, #contenu #right #member_archives .show:hover .tags, #contenu #right #member_archives_ended .show:hover .tags {
+    display: none !important;
+    visibility: hidden !important;
+}

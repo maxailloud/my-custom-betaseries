@@ -14,4 +14,6 @@
                 '</a></div>';
         }
     }
+
+    document.getElementById('ongoing').getElementsByTagName('a')[0].click();
 })();
