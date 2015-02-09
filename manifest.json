@@ -4,7 +4,7 @@
     "manifest_version": 2,
     "description"     : "Add torrent411 link on your betaseries series to go directly to search page for it",
     "content_scripts" : [{
-        "matches" : ["http://www.betaseries.com/membre/*/series"],
+        "matches" : ["https://www.betaseries.com/membre/*/series"],
         "js"      : ["script.js"],
         "css"     : ["style.css"]
     }]
