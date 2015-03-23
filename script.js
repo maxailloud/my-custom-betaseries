@@ -15,5 +15,5 @@
         }
     }
 
-    document.getElementById('ongoing').getElementsByTagName('a')[0].click();
+    document.getElementById('ongoing').click();
 })();
