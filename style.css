@@ -11,7 +11,14 @@
     visibility: hidden;
 }
 
-#contenu #right #annuaire-list .show:hover .tags, #contenu #right #member_shows .show:hover .tags, #contenu #right #member_archives .show:hover .tags, #contenu #right #member_archives_ended .show:hover .tags {
+#contenu #right #annuaire-list .show:hover .tags,
+#contenu #right #member_shows .show:hover .tags,
+#contenu #right #member_archives .show:hover .tags,
+#contenu #right #member_archives_ended .show:hover .tags {
     display: none !important;
     visibility: hidden !important;
+}
+
+#contenu #right #member_shows .show .placeholder {
+    left: 0 !important;
 }
