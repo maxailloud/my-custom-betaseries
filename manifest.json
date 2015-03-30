@@ -1,8 +1,8 @@
 {
-    "name"            : "Torrent411 search button for Betaseries",
+    "name"            : "Custom Betaseries my show page",
     "version"         : "0.1.0",
     "manifest_version": 2,
-    "description"     : "Add torrent411 link on your betaseries series to go directly to search page for it",
+    "description"     : "Adjust show list to my need and add torrent411 link on your betaseries series to go directly to search page for it",
     "content_scripts" : [{
         "matches" : ["https://www.betaseries.com/membre/*/series"],
         "js"      : ["script.js"],
