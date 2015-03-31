@@ -22,3 +22,7 @@
 #contenu #right #member_shows .show .placeholder {
     left: 0 !important;
 }
+
+#contenu #right #member_shows .show .actions {
+    margin-top: -20px !important;
+}
