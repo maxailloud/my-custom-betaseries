@@ -2,6 +2,10 @@
     display: none;
 }
 
+#contenu #centre #right #member_shows .showItem {
+    display: inline-flex;
+}
+
 #contenu #centre #right #member_shows .showItem .col-2 {
     display: none;
     visibility: hidden;
