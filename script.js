@@ -17,8 +17,8 @@
             newAction.classList.add('t441');
             newAction.classList.add('actionButton');
             newAction.innerHTML = 
-            '<a href="https://www.t411.ch/torrents/search/?search=' + showName + '&order=added&type=desc" target="_blank">' +
-                '<img src="https://www.t411.ch/images/default.png" alt="Rechercher la série ' + showName + ' sur Torrent411" title="Rechercher la série ' + showName + ' sur Torrent411" class="t411-icon">' +
+            '<a href="https://www.t411.al/torrents/search/?search=' + showName + '&order=added&type=desc" target="_blank">' +
+                '<img src="https://www.t411.al/images/default.png" alt="Rechercher la série ' + showName + ' sur Torrent411" title="Rechercher la série ' + showName + ' sur Torrent411" class="t411-icon">' +
             '</a>';
 
             showActions[0].insertBefore(newAction, showActions[0].firstChild);
